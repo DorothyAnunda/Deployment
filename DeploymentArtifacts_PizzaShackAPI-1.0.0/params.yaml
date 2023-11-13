@@ -1,0 +1,77 @@
+environments:
+    - name: qa
+      configs:
+          endpoints:
+              production:
+                  url: https://localhost:9448/am/sample/pizzashack/v1/api/
+              sandbox:
+                  url:
+          security:
+              enabled:
+              type:
+              username:
+              password:
+          deploymentEnvironments:
+              - displayOnDevportal:
+                deploymentEnvironment:
+                deploymentVhost:
+              - displayOnDevportal:
+                deploymentEnvironment:  
+                deploymentVhost:
+          certs:
+              - hostName:
+                alias:
+                path:
+              - hostName:
+                alias:
+                path:
+          mutualSslCerts:
+              - tierName:
+                alias:
+                path:
+              - tierName:
+                alias:
+                path:
+          policies:
+              - 
+              -  
+    - name: dev
+      configs:
+          endpoints:
+              production:
+                  url: https://localhost:9448/am/sample/pizzashack/v1/api/
+              sandbox:
+                  url:
+          security:
+              enabled:
+              type:
+              username:
+              password:
+          deploymentEnvironments:
+              - displayOnDevportal:
+                deploymentEnvironment:
+                deploymentVhost:
+              - displayOnDevportal:
+                deploymentEnvironment:  
+                deploymentVhost:
+          certs:
+              - hostName:
+                alias:
+                path:
+              - hostName:
+                alias:
+                path:
+          mutualSslCerts:
+              - tierName:
+                alias:
+                path:
+              - tierName:
+                alias:
+                path:
+          policies:
+              - 
+              -  
+
+
+
+
